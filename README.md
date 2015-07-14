@@ -13,7 +13,7 @@ of symbols defaults to case sensitive alphanumeric characters. Both
 values can be can be passed as parameters.
 
 The entropy parameter means that there are `2^entropy` possible
-outputs for a given call. However, it doesn not mean that each bit
+outputs for a given call. However, it does not mean that each bit
 is actually generated using one bit of entropy, since `SecureRandom`
 may use `/dev/urandom` which, while unguessable, may have less than
 1 bit of entropy for each bit of output.
