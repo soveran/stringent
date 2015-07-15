@@ -10,7 +10,7 @@ Stringent uses `SecureRandom` to generate a pseudo-random number
 with a target entropy, and proceeds to encode it with a given table
 of symbols. The target entropy defaults to 256 bits, and the table
 of symbols defaults to case sensitive alphanumeric characters. Both
-values can be can be passed as parameters.
+values can be passed as parameters.
 
 The entropy parameter means that there are `2^entropy` possible
 outputs for a given call. However, it does not mean that each bit
